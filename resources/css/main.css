@@ -1,1 +1,58 @@
+body {
+  text-align: center;
+}
 
+#container {
+  margin: 0 auto;
+  /* Center horizontally AND vertically */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-circle {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#hammer {
+  border: 5px #f7f7f7 solid;
+}
+
+#hammer img {
+  width: 40px;
+  margin: 10px;
+}
+
+#bulldozer {
+  border: 10px #f7f7f7 solid;
+}
+
+#bulldozer img {
+  width: 90px;
+  margin: 20px;
+}
+
+#pylon {
+  border: 8px #f7f7f7 solid;
+}
+
+#pylon img {
+  width: 50px;
+  margin: 15px;
+}
+
+p, h2 {
+  font-family: Lato;
+  color: grey;
+  display: block;
+  vertical-align: top;
+  padding-top: 20px;
+  margin:0;
+}
+
+a {
+  color: grey;
+  font-weight: bold;
+}
