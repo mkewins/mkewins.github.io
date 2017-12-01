@@ -1,3 +1,7 @@
 $(document).ready(function(){
-    $('#construction').fadeIn(2000);
+  $('.img-carousel').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  });
 });
