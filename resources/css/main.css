@@ -1,8 +1,13 @@
+* {
+  font-family: Lato, sans-serif;
+  color: grey;
+}
+
 body {
   text-align: center;
 }
 
-.page-container {
+.landing-page-container {
   margin: 0 auto;
   /* Center horizontally AND vertically */
   position: fixed;
@@ -11,17 +16,54 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.portfolio-container {
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
 .title {
   margin-bottom: 15px;
 }
 
-h1 {
+h1, h2 {
   font-family: Lato, sans-serif;
   color: grey;
   display: block;
   vertical-align: top;
   padding-top: 20px;
   margin:0;
+}
+
+.portfolio h1, .portfolio h2 {
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.portfolio p {
+  font-family: Lato, sans-serif;
+  color: grey;
+  display: block;
+  vertical-align: top;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin:0;
+  text-align:left;
+}
+
+.portfolio img {
+  width: 70%;
+}
+
+.portfolio ul {
+  text-align: left;
+}
+
+.portfolio .caption {
+  padding-top: 0px;
+  text-align: center;
 }
 
 a {
