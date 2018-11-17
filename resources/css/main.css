@@ -14,7 +14,7 @@ body {
 }
 
 .title h1 {
-  font-family: Lato, sans-serif;
+  font-family: 'courier new', sans-serif;
   color: grey;
   display: block;
   vertical-align: top;
@@ -30,7 +30,7 @@ body {
   color: grey;
   display: block;
 
-  font-family: Lato, sans-serif;
+  font-family: 'courier new', sans-serif;
   font-size: 18px;
   line-height: 30px;
 }
