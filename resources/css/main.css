@@ -3,7 +3,7 @@
 }
 
 .title {
-  width: 600px;
+  /* width: 600px; */
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 20px;
@@ -18,7 +18,7 @@
 }
 
 .about {
-  width: 600px;
+  /* width: 600px; */
   margin: 0 auto;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -42,7 +42,7 @@
 }
 
 .links {
-  width: 600px;
+  /* width: 600px; */
   margin: 0 auto;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -61,15 +61,4 @@
 
 .links a:hover {
   color: grey;
-}
-
-/* Be responsive! */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-/* Styles - mobile */
-
-}
-
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-/* Styles - tablets */
-
 }
