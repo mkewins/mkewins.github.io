@@ -80,6 +80,16 @@
   color: black;
 }
 
+.main a {
+  text-decoration: none;
+  text-decoration: underline;
+  color: black;
+}
+
+.main a:hover {
+  color: tomato;
+}
+
 .list {
   font-size: 14px;
   display: inline;
