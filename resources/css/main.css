@@ -31,22 +31,19 @@
   padding-top: 20px;
   padding-bottom: 20px;
 
-  color: grey;
   display: block;
 
   font-family: 'courier new', sans-serif;
-  font-size: 18px;
-  line-height: 30px;
 }
 
 .about a {
   text-decoration: none;
   text-decoration: underline;
-  color: grey;
+  color: black;
 }
 
 .about a:hover {
-  color: black;
+  color: grey;
 }
 
 .links {
